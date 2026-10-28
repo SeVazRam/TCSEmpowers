@@ -14,6 +14,9 @@ El repositorio incluye los siguientes recursos:
 
 - **Jupyter Notebook:** ejemplos prácticos, código y explicaciones paso a paso.
 - **Presentación PowerPoint:** resumen visual de los conceptos principales y del flujo de trabajo.
+- ** Material GoogleColab** Los materiales de google colab estan en el siguiente link
+- sesion 17 https://colab.research.google.com/drive/1bPpZLaejqUukaVECdo3Yi9hObaYWA2Rn
+- https://colab.research.google.com/drive/1Qlyqf0o7jU4gj3c8DO_ojCElYLwBqFy-
 
 ### Temas abordados
 
