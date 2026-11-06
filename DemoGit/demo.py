@@ -7,13 +7,21 @@ def restar(a, b):
 def multiplicar(a, b):
     return a * b
 
+def dividir(a, b):
+    if b == 0:
+        return "Error: no se puede dividir entre cero"
+    return a / b
+
+
 def main():
-    print("=== Calculadora sencilla funciones ===")
+    print("=== Calculadora sencilla ===")
     a = float(input("Primer número: "))
     b = float(input("Segundo número: "))
     print(f"Suma: {sumar(a, b)}")
     print(f"Resta: {restar(a, b)}")
     print(f"Multiplicación: {multiplicar(a, b)}")
+    print(f"División: {dividir(a, b)}")
+
 
 if __name__ == "__main__":
     main()
