@@ -1,13 +1,16 @@
 def sumar(a, b):
     return a + b
 
+def multiplicar(a*b):
+    return a * b
+
 
 def main():
     print("=== Calculadora sencilla ===")
     a = float(input("Primer número: "))
     b = float(input("Segundo número: "))
-    print(f"Resultado: {sumar(a, b)}")
-
+    print(f"Suma: {sumar(a, b)}")
+    print(f"Multiplicación: {multiplicar(a, b)}")
 
 if __name__ == "__main__":
     main()
