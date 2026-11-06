@@ -2,11 +2,16 @@ def sumar(a, b):
     return a + b
 
 
+def restar(a, b):
+    return a - b
+
+
 def main():
     print("=== Calculadora sencilla ===")
     a = float(input("Primer número: "))
     b = float(input("Segundo número: "))
-    print(f"Resultado: {sumar(a, b)}")
+    print(f"Suma: {sumar(a, b)}")
+    print(f"Resta: {restar(a, b)}")
 
 
 if __name__ == "__main__":
