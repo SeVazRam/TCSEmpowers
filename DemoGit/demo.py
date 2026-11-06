@@ -12,6 +12,9 @@ def dividir(a, b):
         return "Error: no se puede dividir entre cero"
     return a / b
 
+def potencia(a, b):
+    return a ** b
+
 
 def main():
     print("=== Calculadora sencilla ===")
